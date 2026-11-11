@@ -1,0 +1,10 @@
+# markdownlint-cli2 configuration, used by CI and by the local command:
+#   npx markdownlint-cli2 "**/*.md"
+config:
+  # Line length: prose and tables wrap in GitHub and in the assistants.
+  MD013: false
+  # Table pipe spacing: accept the briefs' compact "|---|" tables unchanged.
+  MD060: false
+# MD024 (duplicate headings) is disabled for CHANGELOG.md only, by a comment
+# at the top of that file: Keep a Changelog repeats "### Added" and similar
+# headings under each version.
