@@ -8,7 +8,9 @@ This project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
-### Added in Unreleased
+## [0.1.0] - 2026-11-11
+
+### Added to 0.1.0
 
 - `CHANGELOG.md`
 - `business-cases/<case>/` layout, one folder per business case
