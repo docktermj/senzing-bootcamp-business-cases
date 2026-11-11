@@ -8,6 +8,12 @@ This project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
+### Changed in Unreleased
+
+- Both briefs link to the Senzing demo truth set at <https://github.com/Senzing/truth-sets/tree/main/truthsets/demo>
+- Both briefs rename the truth set's metadata to fit the story: data-source names, CSV column names and JSON keys, including matching attributes, each with its Senzing attribute for loading
+- Both briefs state that data values never change
+
 ## [0.1.0] - 2026-11-11
 
 ### Added to 0.1.0
