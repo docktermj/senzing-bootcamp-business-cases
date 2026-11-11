@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD024 -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -14,6 +15,7 @@ This project adheres to [Semantic Versioning].
 - Banking KYC/KYB and AML brief (draft)
 - P&C insurance and claims fraud brief (draft)
 - `README.md` with business cases, usage, how to add a case and the versioning policy
+- Markdown linting in CI with `markdownlint-cli2`, configured in `.markdownlint-cli2.yaml`
 
 [CommonMark]: https://commonmark.org/
 [Keep a Changelog]: https://keepachangelog.com/

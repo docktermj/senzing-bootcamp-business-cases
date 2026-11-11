@@ -48,6 +48,15 @@ Because people get briefs from a tag by download or raw link, **a brief's path i
 
 Each brief keeps its status line (draft or approved) and its "Prepared" date in its header.
 
+## Linting
+
+Every pull request and push to `main` runs markdownlint against [.markdownlint-cli2.yaml](.markdownlint-cli2.yaml).
+Run the same check locally from the repository root:
+
+```console
+npx markdownlint-cli2 "**/*.md"
+```
+
 [releases]: https://github.com/docktermj/senzing-bootcamp-business-cases/releases
 [Semantic Versioning]: https://semver.org/
 [Senzing Bootcamp]: https://github.com/senzing/bootcamp
